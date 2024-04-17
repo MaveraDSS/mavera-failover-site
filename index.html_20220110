@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vera</title>
+</head>
+<style>
+    html,
+    body {
+        margin: 0 auto;
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+    }
+
+    #header {
+        background: linear-gradient(rgba(0,87,243,0.85), rgb(255, 255, 255));
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    img {
+        margin-top: 20px
+    }
+
+    h1,
+    p {
+        color: black;
+        font-family: 'Work sans', sans-serif;
+        font-weight: 300;
+        line-height: 0.8;
+
+    }
+
+    h1 {
+        font-size: 80px;
+        text-align: center;
+        line-height: .2em;
+    }
+
+    .small {
+        color: black;
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 30pt;
+        text-align: center;
+        line-height: 1em;
+    }
+
+    button {
+        padding: 12px 19px;
+        background: transparent;
+        color: #fff;
+        border: 2px solid white;
+        font-size: 15px;
+        border-radius: 0px;
+        transition: all .3s ease;
+    }
+
+    button:hover {
+        background: white;
+        color: black;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 40pt;
+        }
+
+        p {
+            font-size: 20pt;
+            font-weight: 300;
+        }
+    }
+
+    @media (max-width: 360px) {
+        h1 {
+            font-size: 30pt;
+        }
+
+        p {
+            font-size: 15pt;
+            font-weight: 300;
+        }
+    }
+</style>
+
+<body>
+    <div id="header">
+
+        <h1>Oops!</h1>
+        <p>It's us, not you</p>
+        <p>Vera cannot be reached right now</p>
+        <p class="small">(and that's why you see this page instead for the page you where looking for)</p>
+        <p>We have been notified and are working to fix the problem</p>
+        <p class="small">Sorry for the inconvinience</p>
+        <img src="/failover/Logo-200x43-1.png" alt="mavera logo">
+    </div>
+</body>
+
+</html>
