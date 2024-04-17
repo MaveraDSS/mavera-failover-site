@@ -7,6 +7,7 @@
 body {
     margin: 0;
 }
+
 .maintainance-container {
   background-image: url("../img/maintainance.png");
   width: 100%;
@@ -18,38 +19,40 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .maintainance-container .maintainance-text {
   width: 100%;
   max-width: 48.438rem;
   text-align: center;
   padding-top: 5.625rem;
 }
+
 .maintainance-container .header {
   font-size: 1.875rem;
   color: #303030;
   font-size: 36px;
   font-weight: 700;
 }
-.maintainance-container .header {
-  display: none; /* Hiding the troubleshooting section */
-}
 
 .maintainance-container .mavera-text {
   font-size: 1.313rem;
   font-weight: 400;
 }
+
 .maintainance-container .mavera {
   padding: 1.25rem 2.5rem;
   color: #303030;
   line-height: 1.25;
   font-size: 26px;
 }
+
 .maintainance-container .sorry {
   font-size: 1.313rem;
   font-size: 26px;
   margin-top: 3rem;
   color: #303030;
 }
+
 .maintainance-container img {
   padding: 0.75rem;
 }
@@ -57,9 +60,9 @@ body {
 .maintainance-container .main {
     padding: 42px;
 }
-.maintainance-container .troubleshooting {
-    display: none; /* Hiding the troubleshooting section */
-}
-.maintainance-container .header {
-    display: none; /* Hiding the header section */
+
+.maintainance-container .troubleshooting,
+.maintainance-container .header .error-description,
+.maintainance-container .main .troubleshooting .content {
+    display: none; /* Hiding the troubleshooting section, title, and body */
 }
