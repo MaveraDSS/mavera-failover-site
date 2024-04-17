@@ -61,8 +61,9 @@ body {
     padding: 42px;
 }
 
-.maintainance-container .troubleshooting,
-.maintainance-container .header .error-description,
-.maintainance-container .main .troubleshooting .content {
-    display: none; /* Hiding the troubleshooting section, title, and body */
+.maintainance-container .header,
+.maintainance-container .mavera,
+.maintainance-container .sorry,
+.maintainance-container .header .error-description {
+    display: none;
 }
